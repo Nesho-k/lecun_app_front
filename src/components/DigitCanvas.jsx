@@ -17,7 +17,7 @@ export default function DigitCanvas() {
     const [error, setError] = useState(null);
 
     const API_URL = useMemo(
-        () => import.meta.env.VITE_API_URL || "http://localhost:8000",
+        () => import.meta.env.production.VITE_API_URL || "http://localhost:8000",
         []
     );
 
