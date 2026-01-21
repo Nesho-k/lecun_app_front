@@ -125,7 +125,7 @@ export default function DigitCanvas() {
             const form = new FormData();
             form.append("file", blob, "digit.png");
 
-            const res = await fetch(`${API_URL}/lecun/predict`, {
+            const res = await fetch(`${API_URL}/predict-file`, {
                 method: "POST",
                 body: form,
             });
