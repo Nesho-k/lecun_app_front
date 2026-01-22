@@ -255,9 +255,6 @@ export default function DigitCanvas() {
                                             </div>
                                         ))}
                                     </div>
-                                    <p className="mt-3 text-xs text-gray-500">
-                                        (Ton backend renvoie les <span className="font-medium">logits</span>, pas des probabilités.)
-                                    </p>
                                 </div>
                             )}
                         </div>
